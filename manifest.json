@@ -1,0 +1,15 @@
+{
+  "name": "ProtoFrenz",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "https://cdn.jsdelivr.net/gh/protofrenz/protofrenz-firmware@main/bootloader.bin", "offset": 4096   },
+        { "path": "https://cdn.jsdelivr.net/gh/protofrenz/protofrenz-firmware@main/partitions.bin", "offset": 32768  },
+        { "path": "https://cdn.jsdelivr.net/gh/protofrenz/protofrenz-firmware@main/boot_app0.bin",  "offset": 57344  },
+        { "path": "https://cdn.jsdelivr.net/gh/protofrenz/protofrenz-firmware@main/ProtoFrenz.bin", "offset": 65536  }
+      ]
+    }
+  ]
+}
